@@ -1,4 +1,4 @@
-import { ProductManagement } from "@/components/product-management"; "@/components/product-management";
+import ProductManagement from "@/components/product-management";
 
 export default function Home() {
   return (

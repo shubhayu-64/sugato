@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Folder, Home, BarChart2, FileText, Settings, ChevronRight } from "lucide-react"
 
-export function ProductManagement() {
+export default function ProductManagement() {
   return (
     <div className="flex h-screen bg-gray-100">
       {/* Sidebar */}
