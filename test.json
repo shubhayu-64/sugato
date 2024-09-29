@@ -1,0 +1,46 @@
+{"products": {
+    "name": "",
+    "category": "",
+    "brand": "",
+    "image": "",
+    "variants": [
+        {
+            "name": "Size",
+            "values": ["M", "L"]
+        },
+        {
+            "name": "Color",
+            "values": ["Black", "Red"]
+        }
+    ],
+    "combinations": {
+        "a": {
+            "name": "M/Black",
+            "sku": "ABC12",
+            "quantity": 4,
+            "inStock": false
+        },
+        "b": {
+            "name": "L/Red",
+            "sku": "ABC12",
+            "quantity": null,
+            "inStock": true
+        }
+    },
+    "priceInr": 500,
+    "discount": {
+        "method": "pct", 
+        "value": 12
+    }
+}}
+
+{"categories": [
+    {
+        "id": "abc",
+        "name": "Shoes"
+    },
+    {
+        "id": "xyz",
+        "name": "T-shirt"
+    }
+]}
